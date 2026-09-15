@@ -26,15 +26,12 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
 		//This is mine
+		System.out.println("give me a plural noun");
+		String PLURALNOUN1 = in.nextLine();
+		System.out.println("give me a adjective noun");
+		String ADJECTIVE1 = in.nextLine();
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("A recent survey informs us that one out of every"+ PLURALNOUN1 + " owns " + ADJECTIVE1 + " phone.");
 		
 		in.close();//Don't forget to clean up after yourselves!
 	}
